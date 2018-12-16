@@ -9,8 +9,8 @@ class Calculations
 
      Calculations() 
     {
-        this.boardWidth = Board.WIDTH;
-        this.boardHeight = Board.HEIGHT;
+        this.boardWidth = BoardPainter.WIDTH;
+        this.boardHeight = BoardPainter.HEIGHT;
     }
 
      int getGridSquareWidth(double gridWidth) 

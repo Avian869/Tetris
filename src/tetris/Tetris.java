@@ -7,7 +7,8 @@ public class Tetris extends JFrame
 
      Tetris() 
      {
-        Board board = new Board();
+        TetrisFactory obj = new TetrisFactory();
+        TetrisController board = obj.getInstance("Tetris");
         add(board);
         board.start();
         setSize(400, 800);
